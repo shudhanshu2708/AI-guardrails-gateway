@@ -118,11 +118,3 @@ frontend/src          React console (playground, approvals, security log, evalua
 | POST | /api/evals/run | Run the red-team suite and store the report |
 | GET | /api/evals, /api/evals/{id} | Past reports |
 
-## Resume bullets
-
-Use the numbers from your own run of `make eval`. With the shipped dataset and simulated agent:
-
-- Built an AI security gateway (FastAPI, React, PostgreSQL, Docker) that protects tool-using agents from direct and indirect prompt injection with layered detection, privilege-based tool permissions, human approval and egress filtering.
-- Built a 41-case red-team suite and CI gate; against a deliberately vulnerable simulated agent, attack success fell from 100% to 0% across 25 scenarios while 94% of legitimate tasks still completed.
-
-If you run it against a real model, replace the figures with that result and name the model.
